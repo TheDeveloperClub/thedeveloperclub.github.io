@@ -21,6 +21,15 @@ div {
 #nav {
 	float: right;
 	display: inline;
+  background: none;
+}
+
+.navlink:visited {
+  color: black;
+}
+
+.navlink:link {
+  color: black;
 }
 
 #logo {
