@@ -54,6 +54,7 @@ div.navbar-collapse > div.navbar-nav > a.nav-link {
 div.navbar-collapse > div.navbar-nav > a.nav-item {
 	border-bottom: .25rem solid transparent;
 	border-top: .25rem solid transparent;
+	font-size: 0.9rem;
 }
 
 div.navbar-collapse > div.navbar-nav > a.nav-item:hover, div.navbar-collapse > div.navbar-nav > a.active {
