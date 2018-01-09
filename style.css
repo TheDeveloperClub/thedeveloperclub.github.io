@@ -18,14 +18,12 @@ main {
 /* might want to generalise #about... */
 #aboutHeaderOne {
 	font-size: 2rem;
-	font-family: "Times New Roman", Times, serif;
 }
 
 #aboutText {
 	margin-top: 2rem;
 	font-size: 1rem;
 	width: 75%;
-	font-family: "Times New Roman", serif;
 }
 
 /* BEGIN: navbar/footer stuff */
@@ -38,7 +36,6 @@ main {
 	border-top: .01rem solid black;
 	line-height: 23px; /* Vertically center the text there */
 	background-color: #ffffff;
-	font-family: Cambria, serif;
 	font-size: .8rem;
 }
 
@@ -65,7 +62,6 @@ div.navbar-collapse > div.navbar-nav > a.nav-item:hover, div.navbar-collapse > d
 
 .foot-link, div.navbar-collapse > div.navbar-nav > a.nav-item {
 	color: #000000;
-	font-family: Cambria, serif;
 }
 
 .foot-link {
