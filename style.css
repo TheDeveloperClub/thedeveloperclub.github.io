@@ -7,7 +7,7 @@ body {
 	/* required for navbar */
 	padding-top: 5rem;
 	/* required for footer */
-	margin-bottom: 46px;
+	margin-bottom: 90vh;
 }
 
 main {
@@ -33,9 +33,9 @@ main {
 	position: absolute;
 	bottom: 10;
 	width: 100%;
-	height: 47px;
+	height: 90vh;
 	border-top: .01rem solid black;
-	line-height: 23px; /* Vertically center the text there */
+	line-height: 44.5vh; /* Vertically center the text there */
 	background-color: #ffffff;
 	font-size: .8rem;
 }
