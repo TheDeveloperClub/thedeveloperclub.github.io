@@ -3,9 +3,13 @@ html {
 	min-height: 100%;
 }
 
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
 body {
 	/* required for navbar */
-	padding-top: 5rem;
+	padding-top: 3.5rem;
 	/* required for footer */
 	margin-bottom: 90vh;
 }
@@ -24,7 +28,6 @@ main {
 	margin-top: 2rem;
 	font-size: 1rem;
 	width: 75%;
-	font-family: "Times new roman", serif;
 }
 
 /* BEGIN: navbar/footer stuff */
@@ -54,7 +57,6 @@ div.navbar-collapse > div.navbar-nav > a.nav-link {
 div.navbar-collapse > div.navbar-nav > a.nav-item {
 	border-bottom: .1rem solid transparent;
 	border-top: .1rem solid transparent;
-	font-size: 0.9rem;
 }
 
 div.navbar-collapse > div.navbar-nav > a.nav-item:hover, div.navbar-collapse > div.navbar-nav > a.active {
@@ -90,6 +92,27 @@ div.navbar-collapse > div.navbar-nav > a.nav-item:hover, div.navbar-collapse > d
 	border: 0.2rem solid;
 }
 
+.box>i{
+	font-size: 11rem;
+}
+
+#bigBox,.box{
+	border-radius: 5px;
+	border-color: #011abc;
+}
+
 #indexdiv{
 	margin-top: 10vh;
+}
+
+
+/* thanks https://stackoverflow.com/a/9314458 */
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
