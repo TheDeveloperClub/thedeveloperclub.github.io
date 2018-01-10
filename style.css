@@ -37,7 +37,7 @@ main {
 	border-top: .01rem solid black;
 	line-height: 44.5vh; /* Vertically center the text there */
 	background-color: #ffffff;
-	font-size: .8rem;
+	font-size: 1rem;
 }
 
 
@@ -52,8 +52,8 @@ div.navbar-collapse > div.navbar-nav > a.nav-link {
 }
 
 div.navbar-collapse > div.navbar-nav > a.nav-item {
-	border-bottom: .25rem solid transparent;
-	border-top: .25rem solid transparent;
+	border-bottom: .1rem solid transparent;
+	border-top: .1rem solid transparent;
 	font-size: 0.9rem;
 }
 
