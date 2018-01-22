@@ -26,7 +26,12 @@ body {
 .footer {
 }
 
-
+footer > a {
+	padding-right: 1rem;
+	padding-left: 1rem;
+	font-size: 0.8rem;
+	color: #000;
+}
 
 .navbar-nav {
 	margin-right: 4rem;
