@@ -5,7 +5,7 @@ html {
 
 body {
 	/* required for navbar */
-	/*padding-top: 5rem;*/
+	padding-top: 5rem;
 }
 
 /* might want to generalise #about... */
@@ -26,10 +26,14 @@ body {
 .footer {
 }
 
-footer > a {
+footer > * {
 	padding-right: 1rem;
 	padding-left: 1rem;
 	font-size: 0.8rem;
+	color: #000;
+}
+
+footer > div > * {
 	color: #000;
 }
 
@@ -70,9 +74,9 @@ div.navbar-collapse > div.navbar-nav > a.nav-item:hover, div.navbar-collapse > d
 }
 
 #bigBox{
-	height: 25rem;
-	width: 25rem;
-	border: 0.2rem solid;
+	/*height: 25rem;*/
+	width: 75%;
+	/*border: 0.2rem solid;*/
 }
 
 .box{
