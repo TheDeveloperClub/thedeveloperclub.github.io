@@ -102,45 +102,47 @@ div.navbar-collapse > div.navbar-nav > a.nav-item:hover, div.navbar-collapse > d
     border-radius: 5px;
     padding: 1em;
 }
+
 .wrapper {
   display: grid;
-  grid-template-columns: repeat;
-  grid-gap: 10px;
-  grid-auto-rows: 100px;
-  grid-template-areas:
-    "a a a a b b b b"
-    "a a a a b b b b"
-    "c c c c d d d d"
-    "c c c c d d d d"
-    "e e e e f f f f"
-    "e e e e f f f f";
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(3,1fr);
 }
+
 .image{
-	max-width:100%;
-	max-height:100%;
+	height:10rem;
+}
+
+.flex-right {
+	display:flex;
+	justify-content: flex-end;
 }
 
 .item1 {
-  grid-area: a;
-  justify-self: end;
+  grid-row: 1/2;
+  grid-column: 1/2;
+	align: right;
 }
 .item2 {
-  grid-area: b;
-  justify-self: start;
+  grid-row: 1/2;
+  grid-column: 2/3;
 }
+
 .item3 {
-  grid-area: c;
-  justify-self: end;
+  grid-row: 2/3;
+  grid-column: 1/2;
 }
 .item4 {
-  grid-area: d;
-  justify-self: start;
+  grid-row: 2/3;
+  grid-column: 2/3;
 }
+
 .item5 {
-  grid-area: e;
-  justify-self: end;
+  grid-row: 3/4;
+  grid-column: 1/2;
 }
+
 .item6 {
-  grid-area: f;
-  justify-self: start;
+  grid-row: 3/4;
+  grid-column: 2/3;
 }
