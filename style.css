@@ -23,18 +23,19 @@ body {
 
 /* BEGIN: navbar/footer stuff */
 
-.footer {
+footer {
+	background: #EEEEEE;
 }
 
 footer > * {
 	padding-right: 1rem;
 	padding-left: 1rem;
 	font-size: 0.8rem;
-	color: #000;
+	color: #000000;
 }
 
 footer > div > * {
-	color: #000;
+	color: #000000;
 }
 
 .navbar-nav {
