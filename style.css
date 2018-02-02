@@ -146,3 +146,7 @@ div.navbar-collapse > div.navbar-nav > a.nav-item:hover, div.navbar-collapse > d
   grid-row: 3/4;
   grid-column: 2/3;
 }
+
+#projects {
+	font-size: 1rem;
+}
