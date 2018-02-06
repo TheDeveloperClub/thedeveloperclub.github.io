@@ -166,3 +166,18 @@ div.navbar-collapse > div.navbar-nav > a.nav-item:hover, div.navbar-collapse > d
 	width: 100%;
 	font-family: "Times new roman", serif;
 }
+
+.box1 {
+	margin-left: 7rem;
+	height: 26rem;
+	width: 20rem;
+	border: 0.05rem solid;
+		border-color: #000000;
+}
+
+.box2 {
+	height: 10rem;
+	width: 10rem;
+	border: 0.2rem solid;
+		border-color: #000000;
+}
